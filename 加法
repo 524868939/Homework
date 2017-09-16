@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int sum(int x, int y) 
+{
+	int z;
+	z=x+y;
+	return z;
+}
+int main(void)
+{
+	int a,b,c;
+	cout<<"请输入a，b的值"<<'\n';
+	cin>>a>>b;
+	c=sum(a,b);
+	cout<<"a,b之和为"<<c<<'\n';
+	system("pause"); 
+	return 0;
+}
